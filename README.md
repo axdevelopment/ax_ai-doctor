@@ -9,7 +9,7 @@ do not remove that. don't use qb-core. just don't.
 
 - robberies_creator
 i tought that it had some nice progressbars and it even has a export for it!
-this is only used because of the progressbar. you can replace that easyli, since it's only 1 line inside client.lua
+this is only used because of the progressbar. you can replace that easy-Lee, since it's only 1 line inside client.lua
 
 - b-notify
 just change the notify-function at the bottom of client.lua and you're good to go.
