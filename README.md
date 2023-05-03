@@ -18,5 +18,5 @@ just change the notify-function at the bottom of client.lua and you're good to g
 it has a whole lotta rework innit, changed some AI logic, fixed the callbacks and added a check to see, if the goddamn AI medic is able to get to the players position by himself.
 If not, he'll get teleported - so he is (almost) always there to save ur ass!
 
-## note: this bitch comes with german notifys & a command (/notruf) so u might consider to translate/change that to whateverthefuckyouwant
+## note: this bitch comes with german locales so u might consider to translate/change that to whateverthefuckyouwant
 #enjoy
