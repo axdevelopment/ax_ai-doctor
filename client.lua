@@ -130,12 +130,6 @@ end
 
 function Timer(value)
 		local playerPed = PlayerPedId()
-		local playerCoords = GetEntityCoords(playerPed)
-		local forwardVector = GetEntityForwardVector(playerPed)
-		local rightVector = vector3(forwardVector.y, -forwardVector.x, 0)
-		local spawnCoords = playerCoords + (rightVector * 5)
-		local npcHeading = GetEntityHeading(playerPed) - 270.0 -- 90 Grad nach links drehen, um rechts vom Spieler zu sein
-		local npcTarget = playerCoords + (GetEntityForwardVector(playerPed)*4)
 	local time = value -- sekunden
 	while shouldLoop do--time ~= 0 do 
 		Citizen.Wait(1000) 
